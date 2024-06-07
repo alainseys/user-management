@@ -1,0 +1,6 @@
+---
+# defaults file for user-management
+debug_enabled_default: false
+debug_update_password: on_create
+default_shell: /bin/bash
+default_generate_ssh_key_comment: "ansible-generated for {{ item.username }}@{{ ansible_hostname }}"
